@@ -1,0 +1,24 @@
+.positioning-button{
+    background-color: rgb(59, 9, 30);
+    border: none;
+    color:rgb(231, 207, 231);
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.positioning button:hover{
+    opacity: 0.9;
+}
+
+.positioning-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

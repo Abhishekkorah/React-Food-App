@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.text{
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+}
+
+.cards{
+    box-shadow: 0 2px 2px 0 rgba(18, 123, 209, 0.2);
+    transition: 0.3s;
+    width: 25%; 
+    height: 25%;
+    /* border-radius: 5px; */
+    margin-right: 10px;
+    float:left;
+    /* display: inline-block; */
+    background-color: seashell; 
+}
+
+.card{
+    padding: 5px 10px;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card__category{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card__title{
+    padding: 0px 5px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Zen Antique', serif;
+}
+
+.card button:hover{
+    opacity: 1;
+}
